@@ -84,7 +84,7 @@ body{
    
         width: 100vw;
         height: 100vh;
-        
+        background-color: hsl(218, 23%, 16%);
     }
     .main{
         position: absolute;
