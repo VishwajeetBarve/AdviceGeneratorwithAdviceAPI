@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+    width: 100vw;
+    height: 100h;
+    
+}
+.main{
+    position: absolute;
+    top: 10vh;
+    width: 100%;
+    
+}
+
+.parent{
+    
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 40%;
+    gap: 10px;
+    margin: 0 15px;
+    
+}
+
+.advice-info{
+    display: flex;
+    justify-self: space-between;
+    font-size: 0.8rem;
+    margin-top: 40px;
+}
+
+.advice{
+    
+    letter-spacing: 5px;
+    color:hsl(150, 100%, 66%);
+    margin-right: 5px;
+    
+}
+
+#advnum{
+    color:hsl(150, 100%, 66%);
+    margin-left: 5px;
+    letter-spacing: 5px;
+}
+
+.quote{
+    color :hsl(193, 38%, 86%);
+    font-size : 28px;
+    margin: 10px 20px 20px;
+    text-align: center;
+    font-weight: 800;
+
+}
+
+.divide{
+    margin: 0px 0 40px;
+}
+
+.divider{
+    margin: 20px 0;
+    
+}
+
+.random{
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    padding: 15px;
+    width: fit-content;
+    margin: -25px 20px 0 160px;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    body{
+   
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    .main{
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50%,-50%);
+        width: 37%;
+        
+    }
+
+    .parent{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .quote{
+        margin: 10px 20px 10px;
+    }
+
+    .divide{
+        margin: 0px 0 40px;
+    }
+    
+    
+    .random{
+        
+        margin: -25px 45% 0 45%;
+        opacity: 0.8;
+        width: fit-content;
+    }
+    
+    .random:hover{
+    
+        opacity: 0.9;
+        box-shadow: 1px 1px 2px 0.1px hsl(150, 100%, 66%),-1px -1px 20px 0.1px hsl(150, 100%, 66%);
+        cursor: pointer;
+    }
+    
+
+   
+  }
+
+
+  /* tommorows work */
+  /* centering a div learn properly ✅ */
+  /* api calls in details may be async/await  ✅*/ 
+  /* and position of the random button(use random logic for that) ✅*/
+  /* Work  on making css not css hardcoded ✅*/
